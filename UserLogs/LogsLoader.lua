@@ -33,7 +33,7 @@ DO NOT TOUCH BELOW THIS LINE UNLESS YOU KNOW WHAT YOU'RE DOING OR ADDING A CUSTO
 ----------------------------------------------------------------------------------------------------------
 ]]
 
-local _CoreModules = script.Modules
+local _CoreModules = script.Parent.Modules
 local _CustomModules = _CoreModules.CustomModules
 local ChatLogsModule = require(_CoreModules.ChatLogs)
 local UserLogsModule = require(_CoreModules.UserLogs)
