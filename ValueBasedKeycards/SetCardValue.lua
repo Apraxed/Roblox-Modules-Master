@@ -1,6 +1,6 @@
 -- // Copyright 2022, Aprax3d, All rights reserved.
 
-local GroupId = 0
+local GroupId = 0 -- This is GroupId based btw
 local Ranks = {
   Guest = 0,
   Member = 1,
@@ -33,12 +33,18 @@ game:GetService("Players").PlayerAdded:Connect(function(plr)
 			Card.Parent = char
 			Card.Name = "CardLevel"
 			Card.Value = "Owner"
-    -- Add other values here
-    else
-      Card = Instance.New("StringValue")
-      Card.Parent = char
-      Card.Name = "CardLevel"
-      Card.Value = "Guest
+		--[[
+		elseif GroupRank == Ranks.Example then
+			Card = Instance.new("StringValue")
+			Card.Parent = char
+			Card.Name = "CardLevel"
+			Card.Value = "Example"
+		]]
+    		else
+      			Card = Instance.New("StringValue")
+      			Card.Parent = char
+      			Card.Name = "CardLevel"
+      			Card.Value = "Guest
 		end
 	end)
 end)
