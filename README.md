@@ -24,7 +24,7 @@ As I release this I want to give some special thanks to the people who have help
 - [BetterScripts+](https://www.roblox.com/library/11430259384/)
 - [Custom UsernameGUI (V3)](https://www.roblox.com/library/11632911072/)
 
-**Depriciated Versions**
+**Depreciated Versions**
 -
 - [Custom UsernameGUI (v2)](https://www.roblox.com/library/11470123568/)
 - [BetterScripts](https://www.roblox.com/library/10811985686/)
