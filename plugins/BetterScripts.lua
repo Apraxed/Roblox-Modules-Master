@@ -1,8 +1,8 @@
--- // made by illunious and Aprax3d
+-- Updated version of BetterScripts+ by albie368 and Aprax3d
 game.DescendantAdded:Connect(function(descendant)
-	if descendant:IsA("Script") or descendant:IsA("LocalScript") then
-		descendant.Source = "-- // Copyright "..os.date("%Y")..", "..game:GetService("Players"):GetNameFromUserIdAsync(game:GetService("StudioService"):GetUserId())..", All rights reserved."
-	elseif descendant:IsA("ModuleScript") then
-		descendant.Source = "-- // Copyright "..os.date("%Y")..", "..game:GetService("Players"):GetNameFromUserIdAsync(game:GetService("StudioService"):GetUserId())..", All rights reserved.\n\nlocal module = {}\n\n\nfunction module.test()\n\tprint('Hello world!') \nend\n\n\nreturn module"
-	end
+    if descendant.Source then
+        local originalSource = descendant.Source
+        descendant.Source = string.format("-- // Copyright %s, %s, All rights reserved.\n\n",os.date("%Y"), game:GetService("Players"):GetNameFromUserIdAsync(game:GetService("StudioService"):GetUserId()))
+        descendant.Source ..= originalSource
+    end
 end)
