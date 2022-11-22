@@ -36,7 +36,7 @@ HOW TO USE (GUILDED):
 
 NOTES:
 - Discord has stated that Roblox-based webhooks are against their Terms of Service. If you want to take the risk you may use a proxy like https://hooks.hyra.io in order to get around the Roblox Webhook Block.
-- I (Aprax3d) hearby take no responsibility for any actions against your Discord or Roblox Accounts for using this model.
+	- I (Aprax3d) hearby take no responsibility for any actions against your Discord or Roblox Accounts for using this model.
 - Guilded is the best for logging as Roblox-based json webhooks aren't against their Terms of Service.
 	
 Special Thanks:
