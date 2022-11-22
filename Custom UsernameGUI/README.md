@@ -1,4 +1,4 @@
-# [Custom Username GUI](https://www.roblox.com/library/11470123568/)
+# Custom UsernameGUI
 
 Steps:
 
@@ -8,3 +8,8 @@ Copy CustomUsernameGUI.lua
 Clear new script
 Paste in copied script
 
+## Already uploaded versions
+
+- [Custom UsernameGUI (V3)](https://www.roblox.com/library/11632911072/)
+- [Custom UsernameGUI (v2)](https://www.roblox.com/library/11470123568/)
+ 
