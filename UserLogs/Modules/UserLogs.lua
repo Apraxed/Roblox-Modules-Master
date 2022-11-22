@@ -1,5 +1,4 @@
 local module = {}
-local module = {}
 
 function module.Load ()
 	local players = game:GetService("Players")
@@ -17,7 +16,10 @@ function module.Load ()
 			JobId = "[Studio Instance]"
 		else 
 			username = "SCF | Site Helix "
-			JobId = "["..JobId..".](https://www.roblox.com/games/"..game.PlaceId.."/Project-Helix?server="..game.JobId..")"
+			--[[
+			Roblox removed support for joining a game via JobId by link like was used in this script so this feature is useless
+			JobId = "["..JobId..".](https://www.roblox.com/games/"..game.PlaceId.."/"..game.Name.."{?server="..game.JobId..")"
+			]]
 		end
 		local data = {
 			["content"] = plr.DisplayName.." (@"..plr.Name..") has entered a server. JobId: "..JobId,
