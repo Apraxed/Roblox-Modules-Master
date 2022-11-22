@@ -1,5 +1,5 @@
 # ApraxRobloxModules
-Some scripts I made for Roblox games. 
+Scripted modules for use in any game. (credit is optional)
 
 For your convenience, these are available on the Roblox Creator Marketplace (Linked below)
 
