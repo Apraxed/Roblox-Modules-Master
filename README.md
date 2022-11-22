@@ -30,4 +30,3 @@ As I release this I want to give some special thanks to the people who have help
 - [BetterScripts](https://www.roblox.com/library/10811985686/)
 - [Off-Site Join and Leave Logs](https://www.roblox.com/library/11240550032/)
 - [Off-Site Chatlogs](https://www.roblox.com/library/11240446179/)
-- 
