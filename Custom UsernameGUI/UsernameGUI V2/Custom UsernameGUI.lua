@@ -8,7 +8,7 @@ end)
 
 game:GetService("Players").PlayerAdded:Connect(function(plr)
 	plr.CharacterAdded:Connect(function(char)
-		local clone = require(11470095967).gui:Clone()
+		local clone = require(11470095967).guiv2:Clone()
 		clone.Parent = char.Head
 		if script.Parent._Config.SmartName.Value == true then
 			if plr.DisplayName == plr.Name then
