@@ -1,6 +1,6 @@
 # About Me
 
-You can skip past this if you want the links to the scripts
+[Click me to skip this boring stuff](https://github.com/Apraxed/ApraxRobloxModules#links-to-the-scripts)
 
 Hiya! I'm Zack. Some 15 y/o nerd who got into Lua*u* (Roblox Lua) scripting. As I've improved I have made some scripts that most people do not understand how to make. If it weren't for the amazing ROBLOX Development Community I wouldn't be here in the first place so I wanted to give back. I have made 2 commonly used yet moderately hard ROBLOX Development modules. (Nametags and Off-Site logging) 
 
