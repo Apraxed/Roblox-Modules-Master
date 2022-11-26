@@ -2,7 +2,11 @@
 
 [Click me to skip this boring stuff](https://github.com/Apraxed/ApraxRobloxModules#links-to-the-scripts)
 
-Hiya! I'm Zack. Some 15 y/o nerd who got into Lua*u* (Roblox Lua) scripting. As I've improved I have made some scripts that most people do not understand how to make. If it weren't for the amazing ROBLOX Development Community I wouldn't be here in the first place so I wanted to give back. I have made 2 commonly used yet moderately hard ROBLOX Development modules. (Nametags and Off-Site logging) 
+Hiya! I'm Zack. Some 15 y/o nerd who got into Lua*u* (Roblox Lua) scripting. As I've improved I have made some scripts that most people do not understand how to make. If it weren't for the amazing ROBLOX Development Community I wouldn't be here in the first place so I wanted to give back. I have made 2 commonly used yet moderately hard ROBLOX Development modules. (Nametags and Off-Site logging) I should mention that this is a passion project, I make nothing off of this directly.
+
+----
+
+Because I do not directly make anything off of this I am always accepting donations! You can use the link in the GitHub "Sponsor this project" section to see how you can donate to me via crypto currencies or PayPal.
 
 ----
 
