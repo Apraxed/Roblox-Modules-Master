@@ -4,8 +4,8 @@ Steps:
 
 Create script in module
 
-Copy CustomUsernameGUI.lua
-Clear new script
+Copy whichever version you want's script
+Make a script in Roblox Studio
 Paste in copied script
 
 ## Already uploaded versions
