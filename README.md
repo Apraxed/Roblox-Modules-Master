@@ -2,17 +2,14 @@
 
 Here are some modules my team and I created for public use. 
 
-Most modules do not require you to download any Roblox `.rbxm` file
-
-## Links to the scripts.
-
-*If you want Roblox Model File (.rbxm) versions of these click [here.](https://github.com/Apraxed/ApraxRobloxModules/releases/tag/v1.0.0)*
+*Most* modules do not require you to download any Roblox `.rbxm` file
 
 ### Current Versions
 
 - [Off-Site Logs](https://www.roblox.com/library/11240575802/) 
 - [BetterScripts+](https://www.roblox.com/library/11430259384/)
 - [Custom UsernameGUI (V3)](https://www.roblox.com/library/11632911072/)
+- [In-game Trello Bug Reports](https://www.roblox.com/library/11710522507/In-game-Trello-Bug-Reporting-System)
 
 ### Depreciated Versions
 
@@ -20,6 +17,8 @@ Most modules do not require you to download any Roblox `.rbxm` file
 - [BetterScripts](https://www.roblox.com/library/10811985686/)
 - [Off-Site Join and Leave Logs](https://www.roblox.com/library/11240550032/)
 - [Off-Site Chatlogs](https://www.roblox.com/library/11240446179/)
+
+----
 
 ## Note from the Developer
 
