@@ -1,4 +1,10 @@
-# About Me
+# Roblox Development Free Modules
+
+Here are some modules my team and I (Aprax3d) created for public use. 
+
+Most modules do not require you to download any Roblox `.rbxm` file
+
+## About Me
 
 [Click me to skip this boring stuff](https://github.com/Apraxed/ApraxRobloxModules#links-to-the-scripts)
 
@@ -14,7 +20,7 @@ As I release this I want to give some special thanks to the people who have help
 - [Illunious](https://www.roblox.com/users/868314729/profile) -- For first getting me into Development and supplying the base of two of my old scripts
 - [SneakySecretAgent](https://www.roblox.com/users/20428519/profile) -- For helping me and being a mentor as I made my first few scripts
 - [Proscled](https://www.roblox.com/users/199383691/profile) -- For helping me improve and fine tune my scripts
-- [JessicaValentine](https://www.roblox.com/users/1637624208/profile) -- For helping me improve and offering support when I needed it
+- [Jessica_IXD](https://www.roblox.com/users/1637624208/profile) -- For helping me improve and offering support when I needed it
 - [albie368](https://www.roblox.com/users/65109811/profile) -- For offering constructive criticism and solutions to problems I was having
 - [boboguy101](https://www.roblox.com/users/90702806/profile) -- For being an amazing friend and supporting me as we both improved our knowledge
 
