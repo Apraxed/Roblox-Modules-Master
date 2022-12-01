@@ -13,10 +13,10 @@ This trello-based bug report sysytem uses set chat commands to report bugs using
 - Click on "Game Settings"
 - Go to the "Security" tab
 - Enable "Allow HTTP Requests"
-- Take folder and scripts from "Put in 'ServerScriptService'" and put them in ServerScriptService.
-- Take RemoteEvent "FireBugReport" from "Put in 'ReplicatedStorage'" and put it in ReplicatedStorage
-- Follow Trello API Documentation for finding token and key (https://devforum.roblox.com/t/roblox-to-trello-guide/151887)
-- Put your key and token into their respecitve `StringValue`.
+- Put all scripts into `ServerScriptService`
+- Follow [Trello API Documentation]((https://devforum.roblox.com/t/roblox-to-trello-guide/151887)) for finding token and key
+- Click the arrow on the "TrelloApi" script
+- Put your key and token into their respecitve `StringValue`s.
 - Test it!
 		
 ## Supported chat commands
