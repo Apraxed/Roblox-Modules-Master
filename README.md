@@ -4,7 +4,7 @@ Here are some modules my team and I created for public use.
 
 *Most* modules do not require you to download any Roblox `.rbxm` file
 
-**Note: All scripts are slightly modified from the Roblox main code due to GitHub restrictions 
+*Note: All scripts are slightly modified from the Roblox main code due to GitHub restrictions*
 
 ### Current Versions
 
