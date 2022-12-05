@@ -40,7 +40,7 @@ NOTES:
 - Guilded is the best for logging as Roblox-based json webhooks aren't against their Terms of Service.
 	
 Special Thanks:
-illunious --- Created the original Discord Chatlogs I based these off of 
-JessicaValentineNoms --- Showed me how to set the Avatar to the Roblox Headshot
-Vrkias_Yarlen --- Being an amazing development partner and letting me focus on scripting instead of everything
-Kuzuretaa --- Helping Testing
+- illunious --- Created the original Discord Chatlogs I based these off of 
+- JessicaValentineNoms --- Showed me how to set the Avatar to the Roblox Headshot
+- Vrkias_Yarlen --- Being an amazing development partner and letting me focus on scripting instead of everything
+- Kuzuretaa --- Helping Testing
