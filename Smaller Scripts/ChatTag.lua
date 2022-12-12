@@ -11,7 +11,7 @@ TextChatService.OnIncomingMessage = function(message: TextChatMessage)
 	local properties = Instance.new("TextChatMessageProperties")
 	if message.TextSource then
 		local player = Players:GetPlayerByUserId(message.TextSource.UserId)
-		if player.UserId == game.CreatorId
+		if player.UserId == game.CreatorId then
 			properties.PrefixText = "<font color='#5B9A4C'>[OWNER]</font> " .. message.PrefixText
 		end
 	end
