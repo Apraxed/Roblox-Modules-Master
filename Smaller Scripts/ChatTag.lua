@@ -1,6 +1,8 @@
 -- // Copyright 2022, Aprax3d, All rights reserved.
 
--- This is a LocalScript
+--[[
+	Make a LocalScript in StarterPlayer.StarterPlayerScripts and put this script in 
+]]
 
 local TextChatService = game:GetService("TextChatService")
 local Players = game:GetService("Players")
