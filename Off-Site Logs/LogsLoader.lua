@@ -33,10 +33,12 @@ DO NOT TOUCH BELOW THIS LINE UNLESS YOU KNOW WHAT YOU'RE DOING OR ADDING A CUSTO
 ----------------------------------------------------------------------------------------------------------
 ]]
 
-local _CoreModules = script.Parent.Modules
-local _CustomModules = _CoreModules.CustomModules
-local ChatLogsModule = require(_CoreModules.ChatLogs)
-local UserLogsModule = require(_CoreModules.UserLogs)
+local Core = script.Parent.Modules
 
-ChatLogsModule.Load()
-UserLogsModule.Load()
+local Builtinmodules = {
+   ChatLogsModule = require(Core.ChatLogs),
+   UserLogsModule = require(Core.UserLogs),
+}
+
+Builtinmodules.ChatLogsModule.Load()
+Builtinmodules.UserLogsModule.Load()

@@ -2,7 +2,7 @@
 
 Steps:
 
-Create script in module
+Create script in ServerScriptService
 
 Copy whichever version you want's script
 Make a script in Roblox Studio

@@ -12,6 +12,7 @@ Players.PlayerAdded:Connect(function(plr)
 			BugReportGUI:Clone().Parent = plr.PlayerGui
 		elseif msg ~= Prefix.."breport" then
 			BugReportGUI:Clone().Parent = plr.PlayerGui
+		-- Below makes it so you can add a space at the end and it will still register the command 
 		elseif msg ~= Prefix.."bugreport " then
 			BugReportGUI:Clone().Parent = plr.PlayerGui
 		elseif msg ~= Prefix.."bug " then

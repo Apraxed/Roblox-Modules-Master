@@ -7,14 +7,9 @@ These logging systems are supplied as-is when originally downloaded. Any patches
 - Select `Create Webhook.`
 - Chose an image. (prefferably the game or server icon)
 - Click the `Copy Webhook URL` button.
-- Click the arrow next to LogsLoader
-- Click the arrow next to Values
-- Click the value `ChatLogs Webhook Link`
-- Click `Value` on the Properties Tab
-- Paste in your Webhook URL
-- Click the value `UserLogs Webhook Link`
-- Click `Value` on the Properties Tab
-- Paste in your Webhook URL
+- Go into `hooks`
+- Paste your Webhook URL in the quotes next to `ChatLogsWebhook`
+- Repeat all except paste the Webhook URL in the quotes next to `UserLogsWebhook`
 	
 HOW TO USE (GUILDED): 
 - Open the Guilded Text Channel you want the logs to be sent in.
@@ -25,14 +20,9 @@ HOW TO USE (GUILDED):
 - Chose an icon. (prefferably the game or server icon) 
 - Select the `Copy` button next to the Webhook URL.
 - Select the `Create` Button.
-- Click the arrow next to LogsLoader
-- Click the arrow next to Values
-- Click the value `ChatLogs Webhook Link`
-- Click `Value` on the Properties Tab
-- Paste in your Webhook URL
-- Click the value `UserLogs Webhook Link`
-- Click `Value` on the Properties Tab
-- Paste in your Webhook URL
+- Go into `hooks`
+- Paste your Webhook URL in the quotes next to `ChatLogsWebhook`
+- Repeat all except paste the Webhook URL in the quotes next to `UserLogsWebhook`
 
 NOTES:
 - Discord has stated that Roblox-based webhooks are against their Terms of Service. If you want to take the risk you may use a proxy like https://hooks.hyra.io in order to get around the Roblox Webhook Block.
