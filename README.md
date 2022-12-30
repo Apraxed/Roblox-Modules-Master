@@ -1,3 +1,9 @@
+Major issue:
+
+I was going to work on some other scripts for this until roblox banned my account and locked me out of roblox studio on all alts that had permission to access my place files
+
+So I am stuck unable to work. I will try logging in on another laptop that hasn't had any affiliation with my roblox account but I doubt it will work. I have submitted an appeal and will hopefully get a response soon
+
 # Roblox Development Free Modules
 
 Here are some modules my team and I created for public use. 
