@@ -1,12 +1,25 @@
 -- // Copyright 2022, Aprax3d, All rights reserved.
 
-local api=require(game:GetService("ServerScriptService").ExternalModules.TrelloApi)
-local _Config = script.Parent:FindFirstChildWhichIsA("Configuration")
-local boardName = _Config:FindFirstChild("Board Name").Value
-local listName = _Config:FindFirstChild("List Name").Value
-local boardid=api:GetBoardID(script.Parent.Config["Board Name"].Value)--The board id is different from the link you see when you go to a board
-local listid=api:GetListID(script.Parent.Config["List Name"].Value,boardid)
+local Services = {
+	SSS = game:GetService("ServerScriptService"),
+	RepStorage = game:GetService("ReplicatedStorage"),
+}
 
-game.ReplicatedStorage:WaitForChild('FireBugReport').OnServerEvent:Connect(function(plr, description)
-	api:AddCard("New bug report", "\""..description.."\"\nBug report filed "..os.date("%c %Z").." by "..plr.Name, listid)
-end)
+local _Config = {
+	_Config = script.Parent:FindFirstChildWhichIsA("Configuration"),
+	BoardName = _Config:FindFirstChild("Board Name").Value,
+	ListName = _Config:FindFirstChild("List Name").Value,
+	Remote = Services.RepStorage:WaitForChild("FireBugReport"),
+}
+
+local api = {
+	TAPI = require(Services.SSS.TrelloApi),
+	BoardID = api:GetBoardID(_Config.BoardName),
+	ListID = api:GetListID(_Config.ListName.Value,BoardID),
+}
+
+local function OnEvent(plr, description)
+	api.TAPI:AddCard("New bug report", "\""..description.."\"\nBug report filed "..os.date("%c %Z").." by "..plr.Name, ListID)
+end
+
+_Config.Remote.OnServerEvent:Connect(OnEvent(plr, description))
