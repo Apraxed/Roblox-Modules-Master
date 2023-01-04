@@ -1,3 +1,5 @@
+-- // Copyright 2023, Aprax3d, All rights reserved.
+
 local module = {}
 
 function module.Load ()

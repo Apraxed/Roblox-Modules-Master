@@ -1,4 +1,4 @@
--- // Copyright 2022, Aprax3d, All rights reserved.
+-- // Copyright 2023, Aprax3d, All rights reserved.
 
 --[[
 	Make a LocalScript in StarterPlayer.StarterPlayerScripts and put this script in 

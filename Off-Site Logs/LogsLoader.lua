@@ -1,7 +1,7 @@
 --[[
 BSD 3-Clause License
 
-Copyright (c) 2022, Aprax3d
+Copyright (c) 2022 - 2023, Aprax3d
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
