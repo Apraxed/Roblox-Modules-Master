@@ -7,12 +7,12 @@ function module.Load ()
 		HttpService = game:GetService("HttpService"),
 	}
 
-	local _Config = {
-		AncestorModule = script.Parent.Parent
-		Hooks = require(AncestorModule.hooks)
-		webhook = Hooks["UserLogs Webhook Link"].Value
-		GameName = Hooks["Game Name"].Value
-	}
+	
+	local AncestorModule = script.Parent.Parent
+	local Hooks = require(AncestorModule.hooks)
+	local webhook = Hooks["UserLogs Webhook Link"].Value
+	local GameName = Hooks["Game Name"].Value
+	
 
 	Services.Players.PlayerAdded:Connect(function(plr)
 		local username = GameName
@@ -33,7 +33,7 @@ function module.Load ()
 			["avatar_url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..tostring(plr.UserId).."&width=420&height=420&format=png",
 		}
 
-		Services.HttpService:PostAsync(_Config., Services.HttpService:JSONEncode(data))
+		Services.HttpService:PostAsync(webhook, Services.HttpService:JSONEncode(data))
 	end)
 
 	Services.Players.PlayerRemoving:Connect(function(plr)
@@ -50,7 +50,7 @@ function module.Load ()
 			["avatar_url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..tostring(plr.UserId).."&width=420&height=420&format=png",
 		}
 
-		Services.HttpService:PostAsync(_Config.webhook, Services.HttpService:JSONEncode(data))
+		Services.HttpService:PostAsync(webhook, Services.HttpService:JSONEncode(data))
 	end)
 end
 

@@ -1,7 +1,7 @@
 local module = {
     ChatLogsWebhook = "",
     UserLogsWebhook = "",
-    GameName = "EDIT IN `hooks`",
+    GameName = "EDIT IN STUDIO",
 }
 
 return module

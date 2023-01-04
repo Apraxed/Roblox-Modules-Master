@@ -1,23 +1,27 @@
 -- // Copyright 2022, Aprax3d, All rights reserved.
 
-local _Config = {
-	_Config = script.Parent:FindFirstChildWhichIsA("Configuration"),
-	Prefix = _Config:WaitForChild("Command_Prefix"),
-	OverrideDefaultGUI = _Config["Override Default GUI"].Value,
-	CustomGUI = _Config["Override Default GUI"]["Custom GUI"].Value
-	if OverrideDefaultGUI == true then
-		GUI = CustomGUI
-	else
-		GUI = require(11710354561).ScreenGUI
-}
+---- Loads Ancestor.Config
+Config = script.Parent:FindFirstChildWhichIsA("Configuration")
+OverrideDefaultGUI = Config["Override Default GUI"].Value
+CustomGUI = Config["Override Default GUI"]["Custom GUI"].Value
+GUI = require(11710354561).ScreenGUI
+
+if OverrideDefaultGUI == true then
+	GUI = CustomGUI
+else
+	GUI = require(11710354561).ScreenGUI
+end
+
+
+Prefix = Config:WaitForChild("Command_Prefix")
 
 local cmds = {
-	_Config.Prefix.."bugreport",
-	_Config.Prefix.."bug",
-	_Config.Prefix.."breport",
-	_Config.Prefix.."bugreport ",
-	_Config.Prefix.."bug ",
-	_Config.Prefix.."breport ",
+	Prefix.."bugreport",
+	Prefix.."bug",
+	Prefix.."breport",
+	Prefix.."bugreport ",
+	Prefix.."bug ",
+	Prefix.."breport ",
 }
 
 local Players = game:GetService("Players")
@@ -25,7 +29,7 @@ local Players = game:GetService("Players")
 Players.PlayerAdded:Connect(function(plr)
 	plr.Chatted:Connect(function(msg)
 		if msg == table.find(cmds) then
-			_Config.GUI:Clone.Parent = plr.PlayerGui
+			GUI:Clone().Parent = plr.PlayerGui
 		else
 			return
 		end
