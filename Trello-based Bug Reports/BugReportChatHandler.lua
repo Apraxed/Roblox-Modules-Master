@@ -1,24 +1,31 @@
 -- // Copyright 2022, Aprax3d, All rights reserved.
 
-local Prefix = script.Parent:FindFirstChildWhichIsA("Configuration"):WaitForChild("Command_Prefix")
+local _Config = {
+	_Config = script.Parent:FindFirstChildWhichIsA("Configuration"),
+	Prefix = _Config:WaitForChild("Command_Prefix"),
+	OverrideDefaultGUI = _Config["Override Default GUI"].Value,
+	CustomGUI = _Config["Override Default GUI"]["Custom GUI"].Value
+	if OverrideDefaultGUI == true then
+		GUI = CustomGUI
+	else
+		GUI = require(11710354561).ScreenGUI
+}
+
+local cmds = {
+	_Config.Prefix.."bugreport",
+	_Config.Prefix.."bug",
+	_Config.Prefix.."breport",
+	_Config.Prefix.."bugreport ",
+	_Config.Prefix.."bug ",
+	_Config.Prefix.."breport ",
+}
+
 local Players = game:GetService("Players")
-local BugReportGUI = require(11710354561).ScreenGUI
 
 Players.PlayerAdded:Connect(function(plr)
 	plr.Chatted:Connect(function(msg)
-		if msg ~= Prefix.."bugreport" then
-			BugReportGUI:Clone().Parent = plr.PlayerGui
-		elseif msg ~= Prefix.."bug" then
-			BugReportGUI:Clone().Parent = plr.PlayerGui
-		elseif msg ~= Prefix.."breport" then
-			BugReportGUI:Clone().Parent = plr.PlayerGui
-		-- Below makes it so you can add a space at the end and it will still register the command 
-		elseif msg ~= Prefix.."bugreport " then
-			BugReportGUI:Clone().Parent = plr.PlayerGui
-		elseif msg ~= Prefix.."bug " then
-			BugReportGUI:Clone().Parent = plr.PlayerGui
-		elseif msg ~= Prefix.."breport " then
-			BugReportGUI:Clone().Parent = plr.PlayerGui
+		if msg == table.find(cmds) then
+			_Config.GUI:Clone.Parent = plr.PlayerGui
 		else
 			return
 		end
