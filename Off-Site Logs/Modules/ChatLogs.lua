@@ -8,10 +8,11 @@ function module.Load ()
 		RunService = game:GetService("RunService"),
 		HttpService = game:GetService("HttpService")
 	}
-	local AncestorModule = script.Parent.Parent
-	local _Values = AncestorModule.Values
-	local webhook = _Values["UserLogs Webhook Link"].Value
-	local GameName = _Values["Game Name"].Value
+	local _Config = {
+		AncestorModule = script.Parent.Parent
+		Hooks = require(AncestorModule.hooks)
+		webhook = Hooks["ChatLogs Webhook Link"].Value
+	}
 	
 	Services.Players.PlayerAdded:Connect(function(plr)
 		plr.Chatted:Connect(function(msg)
@@ -28,7 +29,7 @@ function module.Load ()
 					["avatar_url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..tostring(plr.UserId).."&width=420&height=420&format=png",
 				}
 
-			Services.HttpService:PostAsync(webhook, Services.HttpService:JSONEncode(data))
+			Services.HttpService:PostAsync(_Config.webhook, Services.HttpService:JSONEncode(data))
 		end)
 	end)
 end

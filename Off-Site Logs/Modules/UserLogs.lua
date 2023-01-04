@@ -4,20 +4,24 @@ function module.Load ()
 	local Services = {
 		Players = game:GetService("Players"),
 		RunService = game:GetService("RunService"),
-		HttpService = game:GetService("HttpService")
+		HttpService = game:GetService("HttpService"),
 	}
-	local AncestorModule = script.Parent.Parent.LogsLoader
-	local _Values = AncestorModule.Values
-	local webhook = _Values["UserLogs Webhook Link"].Value
+
+	local _Config = {
+		AncestorModule = script.Parent.Parent
+		Hooks = require(AncestorModule.hooks)
+		webhook = Hooks["UserLogs Webhook Link"].Value
+		GameName = Hooks["Game Name"].Value
+	}
 
 	Services.Players.PlayerAdded:Connect(function(plr)
 		local username = GameName
 		local JobId = game.JobId
 		if Services.RunService:IsStudio() then
-			username = "SCF | Site Helix (Studio Instance)"
+			username = username.." [Studio Instance]"
 			JobId = "[Studio Instance]"
 		else 
-			username = "SCF | Site Helix "
+			username = username
 			--[[
 			Roblox removed support for joining a game via JobId by link like was used in this script so this feature is useless
 			JobId = "["..JobId..".](https://www.roblox.com/games/"..game.PlaceId.."/"..game.Name.."{?server="..game.JobId..")"
@@ -29,14 +33,16 @@ function module.Load ()
 			["avatar_url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..tostring(plr.UserId).."&width=420&height=420&format=png",
 		}
 
-		Services.HttpService:PostAsync(webhook, Services.HttpService:JSONEncode(data))
+		Services.HttpService:PostAsync(_Config., Services.HttpService:JSONEncode(data))
 	end)
 
 	Services.Players.PlayerRemoving:Connect(function(plr)
 		local username = GameName
 		if Services.RunService:IsStudio() then
-			username = "SCF | Site Helix (Studio Instance)"
+			username = username.." [Studio Instance]"
 			return
+		else 
+			username = username
 		end
 		local data = {
 			["content"] = plr.DisplayName.." (@"..plr.Name..") has left a server.",
@@ -44,7 +50,7 @@ function module.Load ()
 			["avatar_url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..tostring(plr.UserId).."&width=420&height=420&format=png",
 		}
 
-		Services.HttpService:PostAsync(webhook, Services.HttpService:JSONEncode(data))
+		Services.HttpService:PostAsync(_Config.webhook, Services.HttpService:JSONEncode(data))
 	end)
 end
 
