@@ -9,27 +9,20 @@ GUI = require(11710354561).ScreenGUI
 if OverrideDefaultGUI == true then
 	GUI = CustomGUI
 else
-	GUI = require(11710354561).ScreenGUI
+	GUI = GUI
 end
 
 
 Prefix = Config:WaitForChild("Command_Prefix")
 
-local cmds = {
-	Prefix.."bugreport",
-	Prefix.."bug",
-	Prefix.."breport",
-	Prefix.."bugreport ",
-	Prefix.."bug ",
-	Prefix.."breport ",
-}
-
 local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(plr)
 	plr.Chatted:Connect(function(msg)
-		if msg == table.find(cmds) then
-			GUI:Clone().Parent = plr.PlayerGui
+		wait(0.01)
+		if msg == Prefix.."bugreport" or msg == Prefix.."bug" or msg == Prefix.."breport" then
+			BugReportGUI:Clone().Parent = plr.PlayerGui
+			warn("[EQUALED STUDIOS] "..plr.Name.." has opened the bug report window.")
 		else
 			return
 		end

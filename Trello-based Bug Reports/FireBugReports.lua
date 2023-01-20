@@ -18,9 +18,20 @@ ListID = TAPI:GetListID(ListName.Value,BoardID)
 
 
 local function OnEvent(plr, description)
-	TAPI:AddCard("New bug report", "\""..description.."\"\nBug report filed "..os.date("%c %Z").." by "..plr.Name, ListID)
+	wait(0.01)
+	if not Remote then
+		script:Destroy()
+	else
+		if not script:FindFirstAncestorOfClass("ServerScriptService") then
+			warn("[EQUALED STUDIOS] script `FireBugReports` should be located in ServerScriptService!")
+			TAPI:AddCard("New bug report", "\""..description.."\"\nBug report filed "..os.date("%c %Z").." by "..plr.Name.."\nFireBugReports script should be located in ServerScriptService for security!", listid)
+		else
+			warn("[EQUALED STUDIOS] A new bug report has been submitted by `"..plr.Name.."`.")
+			TAPI:AddCard("New bug report", "\""..description.."\"\nBug report filed "..os.date("%c %Z").." by "..plr.Name, listid)	
+		end
+	end
 end
 
 Config.Remote.OnServerEvent:Connect(function(plr, description)
-	OnEvent(plr, description)
+	pcall(OnEvent, plr, description)
 end)

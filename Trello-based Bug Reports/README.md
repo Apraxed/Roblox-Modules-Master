@@ -1,4 +1,4 @@
-# Trello-based in-game bug reports (Developed by Equaled Studios and partners.)
+# Trello-based in-game bug reports (Developed by Equaled Studios.)
 
 This trello-based bug report sysytem uses set chat commands to report bugs using the TrelloAPI
 
