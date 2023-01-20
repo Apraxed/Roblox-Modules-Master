@@ -1,5 +1,3 @@
-Issue resolved, Roblox unbanned my account.
-
 # Roblox Development Free Modules
 
 Here are some modules my team and I created for public use. 
@@ -41,3 +39,4 @@ As I release this I want to give some special thanks to the people who have help
 - [Jessica_IXD](https://www.roblox.com/users/1637624208/profile) -- For helping me improve and offering support when I needed it
 - [albie368](https://www.roblox.com/users/65109811/profile) -- For offering constructive criticism and solutions to problems I was having
 - [boboguy101](https://www.roblox.com/users/90702806/profile) -- For being an amazing friend and supporting me as we both improved our knowledge
+- [Vrkias_Yarlen](https://www.roblox.com/users/1718119147/profile) -- For being an amazing friend

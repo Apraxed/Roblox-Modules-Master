@@ -1,5 +1,7 @@
 -- // Copyright 2023, Aprax3d and albie368, All rights reserved.
 
+-- Load this as a Local Plugin
+
 game.DescendantAdded:Connect(function(descendant)
     if descendant.Source then
         local originalSource = descendant.Source

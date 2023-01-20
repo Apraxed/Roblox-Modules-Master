@@ -2,11 +2,14 @@
 
 Steps:
 
-Create script in ServerScriptService
-
-Copy whichever version you want's script
-Make a script in Roblox Studio
-Paste in copied script
+Create a script in ServerScriptService
+Copy the handler's script
+Set the name to the handler's filename
+Paste it in said script
+Create a ModuleScript in ServerScriptService
+Copy the loader's script
+Set the name to "loader" ALL LOWERCASE
+Paste in the loader 
 
 ## Already uploaded versions
 

@@ -1,6 +1,6 @@
-These logging systems are supplied as-is when originally downloaded. Any patches will be released to the model itself
-	
-# HOW TO USE (DISCORD):  
+# HOW THE HELL DO I USE THIS?
+
+## HOW TO USE (DISCORD):  
 - Open the Discord channel you want the logs to be sent in.
 - From the channel menu, select Edit channel.
 - Select Integrations.
@@ -11,7 +11,7 @@ These logging systems are supplied as-is when originally downloaded. Any patches
 - Paste your Webhook URL in the quotes next to `ChatLogsWebhook`
 - Repeat all except paste the Webhook URL in the quotes next to `UserLogsWebhook`
 	
-HOW TO USE (GUILDED): 
+## HOW TO USE (GUILDED): 
 - Open the Guilded Text Channel you want the logs to be sent in.
 - Enter the `Channel Settings`.
 - Select `Webhooks`.

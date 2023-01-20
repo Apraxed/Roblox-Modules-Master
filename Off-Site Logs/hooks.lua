@@ -1,3 +1,5 @@
+-- ModuleScript
+
 local module = {
     ChatLogsWebhook = "",
     UserLogsWebhook = "",

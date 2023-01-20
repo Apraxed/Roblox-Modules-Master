@@ -9,8 +9,6 @@ local Services = {
 	Players = game:GetService("Players")
 }
 
-
-
 Services.TextChatService.OnIncomingMessage = function(message: TextChatMessage)
 	local properties = Instance.new("TextChatMessageProperties")
 	if message.TextSource then
