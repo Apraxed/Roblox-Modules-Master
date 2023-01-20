@@ -13,7 +13,7 @@ If you have any issues please add them to the issues tracker! Click the `issues`
 - [Off-Site Logs](https://www.roblox.com/library/11240575802/) 
 - [BetterScripts+](https://www.roblox.com/library/11430259384/)
 - [Custom UsernameGUI (V3)](https://www.roblox.com/library/11632911072/)
-- [In-game Trello Bug Reports](https://www.roblox.com/library/11710522507/In-game-Trello-Bug-Reporting-System)
+- [In-game Trello Bug Reports](https://www.roblox.com/library/11710522507/)
 
 ### Depreciated Versions
 
