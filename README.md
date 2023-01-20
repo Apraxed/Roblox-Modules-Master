@@ -6,6 +6,8 @@ Here are some modules my team and I created for public use.
 
 *Note: All scripts are slightly modified from the Roblox main code due to GitHub restrictions*
 
+If you have any issues please add them to the issues tracker! Click the `issues` tab to report an issue
+
 ### Current Versions
 
 - [Off-Site Logs](https://www.roblox.com/library/11240575802/) 
