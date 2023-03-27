@@ -6,27 +6,28 @@ Here are some modules my team and I created for public use.
 
 *Note: All scripts are slightly modified from the Roblox main code due to GitHub restrictions*
 
-If you have any issues please add them to the issues tracker! Click the `issues` tab to report an issue
+If you have any issues please [add them to the issues tracker!](https://github.com/Apraxed/Roblox-Modules-Master/issues/)
 
-### Current Versions
+### Current Projects
 
 - [Off-Site Logs](https://www.roblox.com/library/11240575802/) 
 - [BetterScripts+](https://www.roblox.com/library/11430259384/)
 - [Custom UsernameGUI (V3)](https://www.roblox.com/library/11632911072/)
-- [In-game Trello Bug Reports](https://www.roblox.com/library/11710522507/)
 
 ### Depreciated Versions
 
-- [Custom UsernameGUI (v2)](https://www.roblox.com/library/11470123568/)
-- [BetterScripts](https://www.roblox.com/library/10811985686/)
-- [Off-Site Join and Leave Logs](https://www.roblox.com/library/11240550032/)
-- [Off-Site Chatlogs](https://www.roblox.com/library/11240446179/)
+Note: If you make an issue report about these you will get the same response "This script has been discontinuned and will not be updated"
 
+- [Custom UsernameGUI (v2)](https://www.roblox.com/library/11470123568/) -- Discontinued due to new version
+- [BetterScripts](https://www.roblox.com/library/10811985686/) -- Discontinued due to new version
+- [Off-Site Join and Leave Logs](https://www.roblox.com/library/11240550032/) -- Discontinued due to new version
+- [Off-Site Chatlogs](https://www.roblox.com/library/11240446179/) -- Discontinued due to new version
+- [In-game Trello Bug Reports](https://www.roblox.com/library/11710522507/) -- Discontinued due to being broken
 ----
 
 ## Note from the Developer
 
-Hiya! I'm Zack. Some 15 y/o nerd who got into Lua*u* (Roblox Lua) scripting. As I've improved I have made some scripts that most people do not understand how to make. If it weren't for the amazing ROBLOX Development Community I wouldn't be here in the first place so I wanted to give back. I have made 2 commonly used yet moderately hard ROBLOX Development modules. (Nametags and Off-Site logging) I should mention that this is a passion project, I make nothing off of this directly.
+Hiya! I'm Zack. Some 15 y/o nerd who got into Lua*u* (Roblox Lua) scripting. As I've improved I have made some scripts that most people do not understand how to make. If it weren't for the amazing ROBLOX Development Community I wouldn't be here in the first place so I wanted to give back. I should mention that this is a passion project, I make nothing off of this directly.
 
 ----
 
@@ -34,7 +35,7 @@ Because I do not directly make anything off of this I am always accepting donati
 
 ----
 
-As I release this I want to give some special thanks to the people who have helped me the most during my journey into becoming a ROBLOX Game Developer.
+As I release this I want to give some special thanks to the people who have helped me the most during my journey into becoming a ROBLOX "Game Developer".
 - [Illunious](https://www.roblox.com/users/868314729/profile) -- For first getting me into Development and supplying the base of two of my old scripts
 - [SneakySecretAgent](https://www.roblox.com/users/20428519/profile) -- For helping me and being a mentor as I made my first few scripts
 - [Proscled](https://www.roblox.com/users/199383691/profile) -- For helping me improve and fine tune my scripts
