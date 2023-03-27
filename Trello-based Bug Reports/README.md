@@ -1,3 +1,6 @@
+# THIS IS BROKEN
+I tried to fix it on my own but alas, no matter what I do it will not work. I will keep this here in case I manage to fix it when I have the time. Sorry
+
 # Trello-based in-game bug reports (Developed by Equaled Studios.)
 
 This trello-based bug report sysytem uses set chat commands to report bugs using the TrelloAPI

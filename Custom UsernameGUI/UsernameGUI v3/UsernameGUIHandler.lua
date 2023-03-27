@@ -5,7 +5,7 @@ require(script.Parent.loader).Load
 local Players = game:GetService("Players")
 
 local function OnEvent(plr)
-	wait(0.01)
+	wait(0.02)
 	local char = plr.Character
 	char:WaitForChild("Humanoid").DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
 	local clone = game.ReplicatedStorage.OverheadGUIV3:Clone() -- This is added by `loader.lua` but can be switched out with a custom one by creating a BillboardGUI nametag with the same name and putting it in ReplicatedStorage
