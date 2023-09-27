@@ -8,15 +8,16 @@ Here are some modules my team and I created for public use.
 
 If you have any issues with these scripts, please [add them to the issues tracker!](https://github.com/Apraxed/Roblox-Modules-Master/issues/)
 
-If you need help with scripting, join [CodeCafe](https://discord.gg/SwGyxj4Hc4), a roblox scripting help Discord Server!
+If you need help with scripting, join [CodeCafe](https://discord.gg/SwGyxj4Hc4), a roblox scripting help Discord Server run by my good friend Luke! Tell him I sent you.
 
 *Note: I will not be adding support to importing with Rojo, too complicated for me*
 
 ### Current Projects
 
+- [Custom Nametags](https://create.roblox.com/marketplace/asset/14894647458/)
 - [Off-Site Logs](https://create.roblox.com/marketplace/asset/11240575802/) 
 - [BetterScriptsplus](https://create.roblox.com/marketplace/asset/11430259384/)
-- [Custom UsernameGUI (V3)](https://create.roblox.com/marketplace/asset/11632911072/)
+- [Custom UsernameGUI (V3)](https://create.roblox.com/marketplace/asset/11632911072/) While a script similar to this is out I will still be updating this version with bugfixes!
 
 ### Depreciated Versions
 

@@ -42,5 +42,5 @@ local Builtinmodules = {
    UserLogsModule = require(Core.UserLogs),
 }
 
-Builtinmodules.ChatLogsModule.Load()
+-- Builtinmodules.ChatLogsModule.Load()
 Builtinmodules.UserLogsModule.Load()
