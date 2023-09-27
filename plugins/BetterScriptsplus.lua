@@ -1,11 +1,13 @@
--- // Copyright 2023, Aprax3d and albie368, All rights reserved.
-
--- Load this as a Local Plugin
+-- Made by illunious, made better by Aprax3d
 
 game.DescendantAdded:Connect(function(descendant)
-    if descendant.Source then
-        local originalSource = descendant.Source
-        descendant.Source = string.format("-- // Copyright %s, %s, All rights reserved.\n\n",os.date("%Y"), game:GetService("Players"):GetNameFromUserIdAsync(game:GetService("StudioService"):GetUserId()))
-        descendant.Source ..= originalSource
-    end
+	if descendant:IsA("Script") or descendant:IsA("LocalScript") then
+		if descendant.Source == 'print(\"Hello world!\")\n' then
+			descendant.Source = "-- // Copyright "..os.date("%Y")..", "..game:GetService("Players"):GetNameFromUserIdAsync(game:GetService("StudioService"):GetUserId())..", All rights reserved.\n\nprint(\"Hello World!\")"
+		end
+	elseif descendant:IsA("ModuleScript") then
+		if descendant.Source == 'local module = {}\n\nreturn module\n' then
+			descendant.Source = "-- // Copyright "..os.date("%Y")..", "..game:GetService("Players"):GetNameFromUserIdAsync(game:GetService("StudioService"):GetUserId())..", All rights reserved.\n\nlocal module = {}\n\n\nfunction module.test()\n\tprint('Hello world!')\nend\n\n\nreturn module"
+		end
+	end
 end)

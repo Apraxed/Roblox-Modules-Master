@@ -1,5 +1,8 @@
 -- // Copyright 2023, Aprax3d, All rights reserved.
 
+--[[ BROKEN ]]
+
+--[[
 ---- Loads Ancestor.Config
 Config = script.Parent:FindFirstChildWhichIsA("Configuration")
 OverrideDefaultGUI = Config["Override Default GUI"].Value
@@ -27,4 +30,4 @@ Players.PlayerAdded:Connect(function(plr)
 			return
 		end
 	end)
-end)
+end)]]

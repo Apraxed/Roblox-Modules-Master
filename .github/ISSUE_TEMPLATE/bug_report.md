@@ -1,7 +1,7 @@
 ---
 name: Bug report
-about: Create a report so I can fix any bugs in the system
-title: "[BUG]"
+about: Create a report so I can fix any bugs
+title: "[BUG] "
 labels: bug
 assignees: Apraxed
 
@@ -11,11 +11,7 @@ assignees: Apraxed
 A clear and concise description of what the bug is.
 
 **To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+Steps to reproduce the behavior.
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.

@@ -2,6 +2,10 @@
 
 -- This script runs checks and makes sure that the system has the required prerequisits
 
+
+--[[BROKEN]]
+
+--[[
 local ErrorSent = false
 
 while true do 
@@ -25,4 +29,4 @@ while true do
 			RemoteEvent.Name = "FireBugReport"
 		end
 	end
-end
+end]]
