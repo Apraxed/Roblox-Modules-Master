@@ -49,7 +49,9 @@ local settings = {
 
 -- DO NOT TOUCH BELOW --
 
-require(14894692150)(script, game.ReplicatedStorage) -- Loading Initializer from Roblox (create.roblox.com/marketplace/asset/14894692150/)
+local CurrentVersion = "v1.0.3"
+
+require(14894692150)(script, game.ReplicatedStorage, CurrentVersion) -- Loading Initializer from Roblox (create.roblox.com/marketplace/asset/14894692150/) + update checker 
 
 -- Copyright 2023, Aprax3d, All rights reserved.
 
