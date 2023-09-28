@@ -27,7 +27,7 @@ Note: If you make an issue report about these you will get the same response "Th
 - [BetterScripts](https://create.roblox.com/marketplace/asset/10811985686/) -- Discontinued due to new version
 - [Off-Site Join and Leave Logs](https://create.roblox.com/marketplace/asset/11240550032/) -- Discontinued due to new version
 - [Off-Site Chatlogs](https://create.roblox.com/marketplace/asset/11240446179/) -- Discontinued due to new version
-- [In-game Trello Bug Reports](https://create.roblox.com/marketplace/asset/11710522507/) -- Discontinued due to being broken
+- In-game Trello Bug Reports -- Discontinued due to trello blocking roblox API Calls; has been removed from marketplace
 ----
 
 Because I do not directly make anything off of this I am always accepting donations! You can use the link in the GitHub "Sponsor this project" section to see how you can donate to me. All donations really help me out
