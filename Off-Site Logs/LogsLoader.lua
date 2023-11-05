@@ -38,9 +38,7 @@ DO NOT TOUCH BELOW THIS LINE UNLESS YOU KNOW WHAT YOU'RE DOING OR ADDING A CUSTO
 local Core = script.Parent.Modules
 
 local Builtinmodules = {
-   ChatLogsModule = require(Core.ChatLogs),
    UserLogsModule = require(Core.UserLogs),
 }
 
--- Builtinmodules.ChatLogsModule.Load()
 Builtinmodules.UserLogsModule.Load()

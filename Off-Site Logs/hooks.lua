@@ -1,7 +1,6 @@
 -- ModuleScript
 
 local module = {
-    ChatLogsWebhook = "",
     UserLogsWebhook = "",
     GameName = "EDIT IN STUDIO",
 }

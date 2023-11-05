@@ -5,15 +5,18 @@ This is a complete rewrite of my original Custom UsernameGUI script. However due
 To use this, make a script with "RunContext" set to legacy, then go in and paste the handler script into it. You can edit the settings in the top where it defines "Settings"
 
 Main Scripter:
+
 - Aprax3d (@Apraxed)
 
 Contributors:
+
 - CowCraftzB
 - boboguy101
 - Illunious
 
 Testers:
+
 - Vrkias_Yarlen (Vrk)
 - Mewsushi (Mewsh)
-- Fastronix 
+- Fastronix
 - MJRR2018

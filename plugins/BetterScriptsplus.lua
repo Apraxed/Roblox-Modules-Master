@@ -1,4 +1,4 @@
--- Made by illunious, made better by Aprax3d
+-- Made by Apraxed and illunious 
 
 game.DescendantAdded:Connect(function(descendant)
 	if descendant:IsA("Script") or descendant:IsA("LocalScript") then
