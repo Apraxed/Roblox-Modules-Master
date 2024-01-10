@@ -1,3 +1,8 @@
+# Serious Note
+Howdy! Before you read this I just want to put this note here about why my assets are **not** on the Creator Marketplace and not accessible from the Roblox Studio Toolbox.
+
+Roblox has recently taken all my modules off the Roblox Creator Marketplace and as such I will only be offering my modules here. I will have a folder with the most up-to-date Roblox Model Files, you will only have to download them and click-and-drag them in. When Roblox fixes this issue I will repost the links or maybe just reupoload them but as far as I'm concerned, Roblox taking down all my modules without telling me is just wrong. I will update more when I get a response from Roblox Support. I have, for now, removed all links below to my marketplace pages.
+
 # Roblox Development Free Modules
 
 Here are some modules my team and I created for public use.
@@ -12,7 +17,8 @@ If you need help with scripting, join [CodeCafe](https://discord.gg/SwGyxj4Hc4),
 
 Note: I will not be adding support to importing with Rojo
 
-## Current Projects
+- Zack
+<!-- ## Current Projects
 
 - [Custom Nametags](https://create.roblox.com/marketplace/asset/14894647458/)
 - [Off-Site Logs](https://create.roblox.com/marketplace/asset/11240575802/)
@@ -28,7 +34,7 @@ Note: If you make an issue report about these you will get the same response "Th
 - [Off-Site Chatlogs](https://create.roblox.com/marketplace/asset/11240446179/) -- Discontinued due to new version
 - In-game Trello Bug Reports -- Discontinued due to trello blocking roblox API Calls; has been removed from marketplace
 - [Custom UsernameGUI (V3)](https://create.roblox.com/marketplace/asset/11632911072/) -- Discontinued due to new version (note: bugfixes will still be coming out to this one until 1/1/2024)
-
+  
 ----
 
 Because I do not directly make anything off of this I am always accepting donations! You can use the link in the GitHub "Sponsor this project" section to see how you can donate to me. All donations really help me out
@@ -43,3 +49,5 @@ As I release this I want to give some special thanks to the people who have help
 - [Jessica_IXD](https://www.roblox.com/users/1637624208/profile) -- For helping me improve and offering support when I needed it
 - [albie368](https://www.roblox.com/users/65109811/profile) -- For offering constructive criticism and solutions to problems I was having
 - [boboguy101](https://www.roblox.com/users/90702806/profile)
+
+-->
