@@ -1,13 +1,6 @@
-# Serious Note
-Howdy! Before you read this I just want to put this note here about why my assets are **not** on the Creator Marketplace and not accessible from the Roblox Studio Toolbox.
-
-Roblox has recently taken all my modules off the Roblox Creator Marketplace and as such I will only be offering my modules here. I will have a folder with the most up-to-date Roblox Model Files, you will only have to download them and click-and-drag them in. When Roblox fixes this issue I will repost the links or maybe just reupoload them but as far as I'm concerned, Roblox taking down all my modules without telling me is just wrong. I will update more when I get a response from Roblox Support. I have, for now, removed all links below to my marketplace pages.
-
-\- Zack
-
 # Roblox Development Free Modules
 
-Here are some modules my team and I created for public use.
+Here are some modules I created. Feel free to use them, no need to credit.
 
 *Most* modules do not require you to download any Roblox `.rbxm` file
 
